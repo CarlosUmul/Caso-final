@@ -104,5 +104,5 @@ def actualizar_grafico(selected_accion, selector, fechas):
 
     return fig, graph_ms, graph_mv
 
-if _name_ == '_main_':
+if __name_ _== '__main__':
     app.run_server(debug=False, host="0.0.0.0", port=10000)
